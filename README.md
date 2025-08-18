@@ -2,7 +2,7 @@
 
 ## 📊 Dashboard Link
 **[View the Logistics Dashboard Here!](https://rahil161190.github.io/Logistics_Network_Optimization/)**
-*(Please replace the URL above with your actual GitHub Pages link once deployed)*
+
 
 ---
 
