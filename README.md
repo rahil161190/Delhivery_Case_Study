@@ -1,7 +1,7 @@
 # Logistics Network Optimization: Data Processing & Forecasting
 
-## 🚀 Live Demo
-**[View the Interactive Infographic Here!](https://your-username.github.io/your-repo-name/)**
+## 📊 Dashboard Link
+**[View the Logistics Dashboard Here!](https://your-username.github.io/your-repo-name/)**
 *(Please replace the URL above with your actual GitHub Pages link once deployed)*
 
 ---
@@ -68,4 +68,36 @@ Insights from hypothesis testing indicated that the **average actual time taken 
 Our comprehensive data analysis pipeline included:
 1.  **Data Collection & Setup:** Ingesting raw data and initial structural examination.
 2.  **Exploratory Data Analysis (EDA):** Analyzing data distributions, identifying patterns, and deriving preliminary insights.
-3.  **Feature Engineering:** Transforming raw data into meaningful features, including
+3.  **Feature Engineering:** Transforming raw data into meaningful features, including datetime and location splits, and aggregating segment-level data to trip-level.
+4.  **Data Preprocessing & Outlier Handling:** Cleaning data by managing missing values, detecting/treating outliers (IQR method), and preparing numerical/categorical features for modeling (scaling, one-hot encoding).
+5.  **Hypothesis Testing:** Statistically validating assumptions and comparing actual vs. OSRM time/distance metrics, including assessing data normality.
+6.  **Insights & Recommendations:** Translating analytical findings into actionable business strategies and observed patterns.
+
+---
+
+## 📈 Strategic Recommendations
+Based on the insights, the following strategic recommendations are proposed:
+
+1.  **Optimize Warehouse Infrastructure:**
+    Strategically **expand hubs in high-demand cities** (e.g., Bengaluru, Gurgaon, Mumbai) to boost capacity and **reduce transit times**, improving service and cost-effectiveness.
+
+2.  **Implement Dynamic Route Optimization:**
+    Leverage real-time data and historical performance (fastest/slowest routes) to **proactively adjust delivery paths**, enhancing speed, fuel efficiency, and fleet utilization.
+
+3.  **Enhance Intra-City Logistics:**
+    Develop **specialized strategies for "Carting" operations**, optimizing routes and schedules based on local traffic and precise delivery windows to improve urban efficiency and customer satisfaction.
+
+4.  **Conduct Root Cause Analysis for Delays:**
+    Systematically investigate the underlying reasons for consistent delays and discrepancies between actual and OSRM times, especially on identified slow routes. This deep dive will uncover operational inefficiencies, infrastructure issues, or external factors, allowing for targeted interventions and process improvements to **minimize future delays across the network.**
+
+5.  **Invest in Predictive Analytics for Demand Forecasting:**
+    Utilize the processed and engineered features to build and deploy **predictive models for demand forecasting**. This will enable proactive resource allocation, optimize fleet sizing, and anticipate logistical bottlenecks, leading to **improved planning and reduced operational costs.**
+
+---
+
+## 💻 Technical Stack
+* **Python**: Primary language for data processing and analysis.
+* **Pandas**: For data manipulation and analysis.
+* **NumPy**: For numerical operations.
+* **Scikit-learn**: For data preprocessing tasks (e.g., scaling, encoding).
+* **Matplotlib / Seaborn**: For data visualization and exploratory analysis.
