@@ -37,7 +37,6 @@ The client sought to improve its data processing and forecasting capabilities to
 Dataset:
 https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/001/551/original/delhivery_data.csv?
 1642751181
-Instructions to download the dataset:
 
 Column Profiling:
 1. data - tells whether the data is testing or training data
